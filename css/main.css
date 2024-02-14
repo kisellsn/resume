@@ -4,36 +4,37 @@
 }
 body {
   font-size: 14px;
-  width: 1200px;
+  width: 100%;
 }
 h1{
-  font-size: 45;
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 15px;
 }
 h2{
-  font-size: 22;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 800;
+  padding-bottom: 0;
 }
 h3{
-  font-size: 16;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   padding-bottom:0;
 }
 h5{
-  font-size: 12;
+  font-size: 12px;
   color: rgba(168, 168, 168, 1);
   padding-top:0;
   margin:0;
 }
 span, li{
-  font-size: 14;
+  font-size: 14px;
   color: rgba(89, 89, 89, 1);
 
 }
 ul li{
-  margin-bottom:5;
+  margin-bottom:5px;
 }
 ol li div{
   display: flex;
@@ -55,7 +56,7 @@ ol li div{
   font-weight: bold;
 }
 #subtitle{
-  font-size: 20;
+  font-size: 20px;
   color:rgba(0, 0, 0, 0.72);
 }
 #main {
@@ -71,7 +72,18 @@ ol li div{
   flex-direction: row;
 }
 #avatar{
-  width: 200px;
+  width: 100%;
+  background-color: rgba(76, 47, 139, 0.2);
+  margin-bottom: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: center; /* Вирівнює по горизонталі по центру */
+  align-items: center;
+
+}
+#avatar img{
+  width: 260px;
+
 }
 #left_side {
   width: 370px;
