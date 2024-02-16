@@ -8,56 +8,89 @@ body {
   padding: 40px;
 }
 h1{
-  font-size: 45px;
+  font-size: 48px;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 15px;
 }
 h2{
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 800;
   padding-bottom: 0;
 }
 h3{
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 700;
   padding-bottom:0;
 }
 h5{
-  font-size: 12px;
+  font-size: 15px;
   color: rgba(168, 168, 168, 1);
   padding-top:0;
   margin:0;
 }
+h5 a {
+    text-decoration: none;
+    color: inherit;
+}
 span, li{
-  font-size: 14px;
+  font-size: 17px;
   color: rgba(89, 89, 89, 1);
 
 }
 ul li{
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
-ol li div{
+.work_section ul span{
+  font-style: italic;
+}
+#courses li div{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  margin-bottom:5px;
+  margin-bottom:10px;
+
+}
+#courses li div a{
+  text-decoration: none;
+  color: rgba(89, 89, 89, 1);
+  font-weight: bold;
+
 }
 .hr-dashed{
   margin: 9px 0;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 1px;
+  border: none;
+  border-top: 3px dashed rgba(89, 89, 89, 1);
+  flex-grow: 1;
+}
+.hr-dashed2{
+  margin: 9px 0;
+  margin-left: 15px;
+  margin-right: 15px;
   height: 1px;
   border: none;
   border-top: 3px dashed #ddd;
   flex-grow: 1;
+}
+.v461644_345{
+  margin-top: 5px;
+}
+ul li div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom:5px;
+  margin-right: 30px;
 }
 .bold{
   color: rgba(0, 0, 0, 1);
   font-weight: bold;
 }
 #subtitle{
-  font-size: 20px;
+  font-size: 23px;
   color:rgba(0, 0, 0, 0.72);
 }
 #main {
@@ -125,10 +158,14 @@ ol li div{
 }
 .violet{
   font-weight: bold;
-  font-size: 16px;
+  font-size: 19px;
   color:rgba(153, 109, 245, 0.75);
 }
 #facult{
   margin-top: 5px;
   margin-bottom: 20px;
+}
+.icon{
+  height: 22px;
+  padding-top: 4px;
 }
